@@ -38,7 +38,6 @@ int main() {
 	vector<string> words;
 	string word;
 	ifstream file;
-	system("pdftotext 360pgs.pdf");
   	file.open("360pgs.txt");
 	long double init = tiempoCPU();
 	if (file.is_open())
